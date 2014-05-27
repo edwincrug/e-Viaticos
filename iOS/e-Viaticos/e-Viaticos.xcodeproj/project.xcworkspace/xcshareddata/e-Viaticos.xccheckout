@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>59A87EA1-0D71-4F17-80E4-56E077D0E889</string>
+	<key>IDESourceControlProjectName</key>
+	<string>e-Viaticos</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>423A8209-5F6B-42E3-BF85-639CFD631994</key>
+		<string>https://github.com/edwincrug/e-Viaticos.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iOS/e-Viaticos/e-Viaticos.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>423A8209-5F6B-42E3-BF85-639CFD631994</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/edwincrug/e-Viaticos.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>423A8209-5F6B-42E3-BF85-639CFD631994</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>423A8209-5F6B-42E3-BF85-639CFD631994</string>
+			<key>IDESourceControlWCCName</key>
+			<string>e-Viaticos</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,55 @@
+#h1Title{
+  display: none;
+}
+#dhome{float: left;
+padding-left: 10px;
+}
+#iHome{width: 60px;
+}
+#dTitleHome{}
+#dLogo{}
+#iLogo{}
+
+
+
+/*Desktop*/
+@media screen and (max-width : 1024px){
+    #head{
+       background-color: black;
+    }
+}
+
+/*Desktop*/
+@media screen and (min-width : 1024px){
+    #head{
+       background-color: white;
+    }
+}
+
+/*iPhone en posición horizontal*/
+@media screen and (max-device-width : 480px) and (orientation : landscape){
+    #head{
+       background-color: yellow;
+    }
+}
+
+/*iPhone en posición vertical*/
+@media screen and (max-device-width : 480px) and (orientation : portrait){
+    #head{
+       background-color: pink;
+    }
+}
+
+/*Ipad en posición horizontal*/
+@media screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape){
+	#head{                 
+		background-color: blue;   
+	} 
+} 
+
+/*Ipad en posición vertical*/
+@media screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait){
+	#head{          
+		background-color: red;   
+	} 
+} 

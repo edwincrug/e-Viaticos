@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E87A058E192C308C00DD32BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E87A058D192C308C00DD32BE /* Foundation.framework */; };
+		E87A0590192C308C00DD32BE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E87A058F192C308C00DD32BE /* CoreGraphics.framework */; };
+		E87A0592192C308C00DD32BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E87A0591192C308C00DD32BE /* UIKit.framework */; };
+		E87A0598192C308C00DD32BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E87A0596192C308C00DD32BE /* InfoPlist.strings */; };
+		E87A059A192C308C00DD32BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E87A0599192C308C00DD32BE /* main.m */; };
+		E87A059E192C308C00DD32BE /* SBAPPActionAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E87A059D192C308C00DD32BE /* SBAPPActionAppDelegate.m */; };
+		E87A05A1192C308C00DD32BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E87A059F192C308C00DD32BE /* Main.storyboard */; };
+		E87A05A4192C308C00DD32BE /* SBAPPActionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E87A05A3192C308C00DD32BE /* SBAPPActionViewController.m */; };
+		E87A05A6192C308C00DD32BE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E87A05A5192C308C00DD32BE /* Images.xcassets */; };
+		E87A05AD192C308C00DD32BE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E87A05AC192C308C00DD32BE /* XCTest.framework */; };
+		E87A05AE192C308C00DD32BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E87A058D192C308C00DD32BE /* Foundation.framework */; };
+		E87A05AF192C308C00DD32BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E87A0591192C308C00DD32BE /* UIKit.framework */; };
+		E87A05B7192C308C00DD32BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E87A05B5192C308C00DD32BE /* InfoPlist.strings */; };
+		E87A05B9192C308C00DD32BE /* e_ViaticosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E87A05B8192C308C00DD32BE /* e_ViaticosTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E87A05B0192C308C00DD32BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E87A0582192C308C00DD32BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E87A0589192C308C00DD32BE;
+			remoteInfo = "e-Viaticos";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E87A058A192C308C00DD32BE /* e-Viaticos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "e-Viaticos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E87A058D192C308C00DD32BE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E87A058F192C308C00DD32BE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E87A0591192C308C00DD32BE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E87A0595192C308C00DD32BE /* e-Viaticos-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "e-Viaticos-Info.plist"; sourceTree = "<group>"; };
+		E87A0597192C308C00DD32BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E87A0599192C308C00DD32BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E87A059B192C308C00DD32BE /* e-Viaticos-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "e-Viaticos-Prefix.pch"; sourceTree = "<group>"; };
+		E87A059C192C308C00DD32BE /* SBAPPActionAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBAPPActionAppDelegate.h; sourceTree = "<group>"; };
+		E87A059D192C308C00DD32BE /* SBAPPActionAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBAPPActionAppDelegate.m; sourceTree = "<group>"; };
+		E87A05A0192C308C00DD32BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E87A05A2192C308C00DD32BE /* SBAPPActionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBAPPActionViewController.h; sourceTree = "<group>"; };
+		E87A05A3192C308C00DD32BE /* SBAPPActionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBAPPActionViewController.m; sourceTree = "<group>"; };
+		E87A05A5192C308C00DD32BE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E87A05AB192C308C00DD32BE /* e-ViaticosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "e-ViaticosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E87A05AC192C308C00DD32BE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E87A05B4192C308C00DD32BE /* e-ViaticosTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "e-ViaticosTests-Info.plist"; sourceTree = "<group>"; };
+		E87A05B6192C308C00DD32BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E87A05B8192C308C00DD32BE /* e_ViaticosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = e_ViaticosTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E87A0587192C308C00DD32BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E87A0590192C308C00DD32BE /* CoreGraphics.framework in Frameworks */,
+				E87A0592192C308C00DD32BE /* UIKit.framework in Frameworks */,
+				E87A058E192C308C00DD32BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E87A05A8192C308C00DD32BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E87A05AD192C308C00DD32BE /* XCTest.framework in Frameworks */,
+				E87A05AF192C308C00DD32BE /* UIKit.framework in Frameworks */,
+				E87A05AE192C308C00DD32BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E87A0581192C308C00DD32BE = {
+			isa = PBXGroup;
+			children = (
+				E87A0593192C308C00DD32BE /* e-Viaticos */,
+				E87A05B2192C308C00DD32BE /* e-ViaticosTests */,
+				E87A058C192C308C00DD32BE /* Frameworks */,
+				E87A058B192C308C00DD32BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E87A058B192C308C00DD32BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E87A058A192C308C00DD32BE /* e-Viaticos.app */,
+				E87A05AB192C308C00DD32BE /* e-ViaticosTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E87A058C192C308C00DD32BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E87A058D192C308C00DD32BE /* Foundation.framework */,
+				E87A058F192C308C00DD32BE /* CoreGraphics.framework */,
+				E87A0591192C308C00DD32BE /* UIKit.framework */,
+				E87A05AC192C308C00DD32BE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E87A0593192C308C00DD32BE /* e-Viaticos */ = {
+			isa = PBXGroup;
+			children = (
+				E87A059C192C308C00DD32BE /* SBAPPActionAppDelegate.h */,
+				E87A059D192C308C00DD32BE /* SBAPPActionAppDelegate.m */,
+				E87A059F192C308C00DD32BE /* Main.storyboard */,
+				E87A05A2192C308C00DD32BE /* SBAPPActionViewController.h */,
+				E87A05A3192C308C00DD32BE /* SBAPPActionViewController.m */,
+				E87A05A5192C308C00DD32BE /* Images.xcassets */,
+				E87A0594192C308C00DD32BE /* Supporting Files */,
+			);
+			path = "e-Viaticos";
+			sourceTree = "<group>";
+		};
+		E87A0594192C308C00DD32BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E87A0595192C308C00DD32BE /* e-Viaticos-Info.plist */,
+				E87A0596192C308C00DD32BE /* InfoPlist.strings */,
+				E87A0599192C308C00DD32BE /* main.m */,
+				E87A059B192C308C00DD32BE /* e-Viaticos-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E87A05B2192C308C00DD32BE /* e-ViaticosTests */ = {
+			isa = PBXGroup;
+			children = (
+				E87A05B8192C308C00DD32BE /* e_ViaticosTests.m */,
+				E87A05B3192C308C00DD32BE /* Supporting Files */,
+			);
+			path = "e-ViaticosTests";
+			sourceTree = "<group>";
+		};
+		E87A05B3192C308C00DD32BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E87A05B4192C308C00DD32BE /* e-ViaticosTests-Info.plist */,
+				E87A05B5192C308C00DD32BE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E87A0589192C308C00DD32BE /* e-Viaticos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E87A05BC192C308C00DD32BE /* Build configuration list for PBXNativeTarget "e-Viaticos" */;
+			buildPhases = (
+				E87A0586192C308C00DD32BE /* Sources */,
+				E87A0587192C308C00DD32BE /* Frameworks */,
+				E87A0588192C308C00DD32BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "e-Viaticos";
+			productName = "e-Viaticos";
+			productReference = E87A058A192C308C00DD32BE /* e-Viaticos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E87A05AA192C308C00DD32BE /* e-ViaticosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E87A05BF192C308C00DD32BE /* Build configuration list for PBXNativeTarget "e-ViaticosTests" */;
+			buildPhases = (
+				E87A05A7192C308C00DD32BE /* Sources */,
+				E87A05A8192C308C00DD32BE /* Frameworks */,
+				E87A05A9192C308C00DD32BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E87A05B1192C308C00DD32BE /* PBXTargetDependency */,
+			);
+			name = "e-ViaticosTests";
+			productName = "e-ViaticosTests";
+			productReference = E87A05AB192C308C00DD32BE /* e-ViaticosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E87A0582192C308C00DD32BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SBAPPAction;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Edwin Cruz García";
+				TargetAttributes = {
+					E87A05AA192C308C00DD32BE = {
+						TestTargetID = E87A0589192C308C00DD32BE;
+					};
+				};
+			};
+			buildConfigurationList = E87A0585192C308C00DD32BE /* Build configuration list for PBXProject "e-Viaticos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E87A0581192C308C00DD32BE;
+			productRefGroup = E87A058B192C308C00DD32BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E87A0589192C308C00DD32BE /* e-Viaticos */,
+				E87A05AA192C308C00DD32BE /* e-ViaticosTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E87A0588192C308C00DD32BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E87A05A6192C308C00DD32BE /* Images.xcassets in Resources */,
+				E87A0598192C308C00DD32BE /* InfoPlist.strings in Resources */,
+				E87A05A1192C308C00DD32BE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E87A05A9192C308C00DD32BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E87A05B7192C308C00DD32BE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E87A0586192C308C00DD32BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E87A059A192C308C00DD32BE /* main.m in Sources */,
+				E87A05A4192C308C00DD32BE /* SBAPPActionViewController.m in Sources */,
+				E87A059E192C308C00DD32BE /* SBAPPActionAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E87A05A7192C308C00DD32BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E87A05B9192C308C00DD32BE /* e_ViaticosTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E87A05B1192C308C00DD32BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E87A0589192C308C00DD32BE /* e-Viaticos */;
+			targetProxy = E87A05B0192C308C00DD32BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E87A0596192C308C00DD32BE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E87A0597192C308C00DD32BE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E87A059F192C308C00DD32BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E87A05A0192C308C00DD32BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E87A05B5192C308C00DD32BE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E87A05B6192C308C00DD32BE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E87A05BA192C308C00DD32BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		E87A05BB192C308C00DD32BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E87A05BD192C308C00DD32BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "e-Viaticos/e-Viaticos-Prefix.pch";
+				INFOPLIST_FILE = "e-Viaticos/e-Viaticos-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E87A05BE192C308C00DD32BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "e-Viaticos/e-Viaticos-Prefix.pch";
+				INFOPLIST_FILE = "e-Viaticos/e-Viaticos-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E87A05C0192C308C00DD32BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/e-Viaticos.app/e-Viaticos";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "e-Viaticos/e-Viaticos-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "e-ViaticosTests/e-ViaticosTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E87A05C1192C308C00DD32BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/e-Viaticos.app/e-Viaticos";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "e-Viaticos/e-Viaticos-Prefix.pch";
+				INFOPLIST_FILE = "e-ViaticosTests/e-ViaticosTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E87A0585192C308C00DD32BE /* Build configuration list for PBXProject "e-Viaticos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E87A05BA192C308C00DD32BE /* Debug */,
+				E87A05BB192C308C00DD32BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E87A05BC192C308C00DD32BE /* Build configuration list for PBXNativeTarget "e-Viaticos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E87A05BD192C308C00DD32BE /* Debug */,
+				E87A05BE192C308C00DD32BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E87A05BF192C308C00DD32BE /* Build configuration list for PBXNativeTarget "e-ViaticosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E87A05C0192C308C00DD32BE /* Debug */,
+				E87A05C1192C308C00DD32BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E87A0582192C308C00DD32BE /* Project object */;
+}
