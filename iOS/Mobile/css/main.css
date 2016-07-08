@@ -1,36 +1,177 @@
+.separador{
+  padding: 6px;
+}
+
 #h1Title{
   display: none;
 }
-#dhome{float: left;
-padding-left: 10px;
-}
-#iHome{width: 60px;
-}
-#dTitleHome{}
-#dLogo{}
-#iLogo{}
 
+/*Estilos de la tabla header*/
+#tHeader{
+  width: 100%;
+}
+#hLeft{
+  width: 33%;
+}
+#hCenter{
+  width: 33%;
+}
+#hRight{
+  width: 33%;
+  text-align: right;
+}
+#dLeft{
+  padding: 10px;
+}
+
+/*Contenido de la tabla header*/
+#iHome{
+  width: 70px;
+  /* padding-left: 5px; */
+}
+
+#dTitleHome{
+  font-size: 11px;
+  padding-left: 3px;
+  font-weight: 700;
+  color: #3a5dae;
+}
+
+#dStepHome{
+    width: 100%;
+    text-align: right;
+    padding-right: 3px;
+    font-size: 22px;
+    color: #3a5dae;
+}
+
+#dStepHomePhone{
+  display: none;
+}
+
+#iLogo{
+  width: 250px;
+  /* float: right; */
+}
+
+/*Titulo*/
+.dTitle{
+  width: 100%;
+  background-color: #708090;
+  color: white;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 5px;
+  font-size: 24px;
+  margin-bottom: 10px;
+  -webkit-border-radius:4px; 
+}
+
+/*Formato de etiquetas*/
+.labelfield{
+  background-color: #F0F8FF;
+  width: 99%;
+  border: 1px solid #F0F8FF;
+  padding: 5px;
+  -webkit-border-radius:4px; /* Safari y Chrome */ 
+  margin-top: 5px;
+  color:#708090;
+  font-size: 18px;
+}
+
+.labelLabel{
+    color: #708090;
+    font-size: 18px;
+}
 
 
 /*Desktop*/
-@media screen and (max-width : 1024px){
+@media screen and (max-width: 480px){
     #head{
        background-color: black;
+    }
+    #hLeft{
+    width: 60%;
+    }
+    #hCenter{
+    width: 0%;
+
+    }
+    #hRight{
+    width: 40%;
+    text-align: right;
+    }
+    #iHome{
+      display: none;
+    }
+    #dTitleHome{
+      display: none;
+    }
+    #dStepHomePhone{
+    width: 100%;
+    text-align: left;
+    padding-right: 3px;
+    font-size: 22px;
+    color: #3a5dae;
+    display: block;
+    }
+
+    #dStepHome{
+      display: none;
+    }
+
+    #iLogo{
+      width: 150px;
+      /* float: right; */
     }
 }
 
 /*Desktop*/
-@media screen and (min-width : 1024px){
+@media screen and (min-width : 480px){
     #head{
        background-color: white;
     }
 }
 
-/*iPhone en posición horizontal*/
-@media screen and (max-device-width : 480px) and (orientation : landscape){
+/*iPhone en posici*/
+@media screen and (max-device-width : 480px){
     #head{
        background-color: yellow;
     }
+    #hLeft{
+    width: 60%;
+    }
+    #hCenter{
+    width: 0%;
+    }
+    #hRight{
+    width: 40%;
+    text-align: right;
+    }
+    #iHome{
+      display: none;
+    }
+    #dTitleHome{
+      display: none;
+    }
+    #dStepHomePhone{
+    width: 100%;
+    text-align: left;
+    padding-right: 3px;
+    font-size: 22px;
+    color: #3a5dae;
+    display: block;
+    }
+
+    #dStepHome{
+      display: none;
+    }
+
+    #iLogo{
+      width: 150px;
+      /* float: right; */
+    }
+
 }
 
 /*iPhone en posición vertical*/
@@ -38,18 +179,38 @@ padding-left: 10px;
     #head{
        background-color: pink;
     }
+    .dTitle{
+      font-size: 22px;
+    }
+    .labelfield{
+      font-size: 16px;
+    }
+    .labelLabel{
+        font-size: 16px;
+    }
+    #lProceso{
+      visibility: hidden;
+      display: none;
+    }
 }
 
-/*Ipad en posición horizontal*/
+@media screen and (max-device-width : 480px) and (orientation : landscape){
+   #lProceso{
+      visibility: visible;
+    }
+}
+
+
+/*Ipad en posici*/
 @media screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape){
-	#head{                 
-		background-color: blue;   
-	} 
+  	#head{                 
+  		background-color: blue;   
+  	} 
 } 
 
-/*Ipad en posición vertical*/
+/*Ipad en posici*/
 @media screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait){
-	#head{          
-		background-color: red;   
-	} 
+  	#head{          
+  		background-color: red;   
+  	} 
 } 

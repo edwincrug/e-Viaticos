@@ -1,0 +1,34 @@
+/*Titulo*/
+#boxLogin{
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: transparent;
+  width: 60%;
+border: 1px solid white;
+box-shadow: 2px 2px 5px #ddd;
+padding-right: 3px;
+margin-top: 10%;
+}
+
+.botonConfirmar
+{
+    margin-right: 17%;
+    margin-top: 3%;
+}
+
+#footer
+{
+  position: absolute;
+  bottom: 0;
+  width: 95%;
+  font-size: 11px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  color:#3a5dae;
+}
+
+.textboxes
+{
+  height: 15px;
+}
